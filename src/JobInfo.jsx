@@ -1,7 +1,7 @@
 import Duties from './Duties';
 
 const JobInfo = ({ jobs, currentItem }) => {
-  const { company, dates, title, duties } = jobs[setCurrentItem];
+  const { company, dates, title, duties } = jobs[currentItem];
   return (
     <section className='job-info'>
       <h3>{title}</h3>
